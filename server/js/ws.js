@@ -1,8 +1,8 @@
 
 var cls = require("./lib/class"),
     url = require('url'),
-    wsserver = require("websocket-server"),
-    miksagoConnection = require('websocket-server/lib/ws/connection'),
+    wsserver = require("./websocket-server"),
+    miksagoConnection = require('./websocket-server/lib/ws/connection'),
     worlizeRequest = require('websocket').request,
     http = require('http'),
     Utils = require('./utils'),
